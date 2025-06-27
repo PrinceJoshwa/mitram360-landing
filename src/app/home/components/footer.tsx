@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="font-semibold text-lg mb-2">or email us at</div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5" />
-                <span className="text-blue-200">care@Mitram360.ai</span>
+                <span className="text-blue-200">care@mitram360.com</span>
               </div>
             </div>
           </div>
