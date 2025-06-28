@@ -721,23 +721,23 @@
 //   )
 // }
 
-import AboutPage from "./about/page"
-import BecomeOurPartnerPage from "./become-our-partner/page"
-import ForCAsPage from "./for-cas/page"
-import ForDSAsPage from "./for-dsas/page"
-import ForLendingPartnersPage from "./for-lending-partners/page"
-import HelpCenterPage from "./help-center/page"
+// import AboutPage from "./about/page"
+// import BecomeOurPartnerPage from "./become-our-partner/page"
+// import ForCAsPage from "./for-cas/page"
+// import ForDSAsPage from "./for-dsas/page"
+// import ForLendingPartnersPage from "./for-lending-partners/page"
+// import HelpCenterPage from "./help-center/page"
 import Home from "./home/page"
 
 
 export default function Page() {
   return <>
   <Home />
-  <AboutPage />
+  {/* <AboutPage />
   <ForDSAsPage/>
   <ForCAsPage/>
   <ForLendingPartnersPage/>
   <HelpCenterPage/>
-  <BecomeOurPartnerPage/>
+  <BecomeOurPartnerPage/> */}
   </>
 }
