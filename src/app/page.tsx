@@ -43,7 +43,7 @@
 //               </a>
 //             </nav>
 //             <div className="flex space-x-4">
-//               <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full">Mitram360</Button>
+//               <Button className="bg-Mitram360-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full">Mitram360</Button>
 //               <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-full">
 //                 BECOME OUR PARTNER
 //               </Button>

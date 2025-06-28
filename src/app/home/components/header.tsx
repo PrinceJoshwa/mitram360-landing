@@ -5,6 +5,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState, useCallback } from "react"
 import { Menu, X } from "lucide-react"
+import Image from 'next/image';
+
 
 export default function Header() {
   const pathname = usePathname()
@@ -34,7 +36,7 @@ export default function Header() {
     { href: "/for-dsas", label: "For DSAs" },
     { href: "/for-cas", label: "For CAs" },
     { href: "/for-lending-partners", label: "For Lending Partners" },
-    { href: "/help-center", label: "Help Center" },
+    // { href: "/help-center", label: "Help Center" },
   ]
 
   return (
@@ -42,7 +44,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <Link href="/home" className="flex items-center" prefetch={true}>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-800">Mit</span>
@@ -56,7 +58,18 @@ export default function Header() {
                 <sup className="text-xs text-gray-500">®</sup>
               </div>
             </Link>
-          </div>
+          </div> */}
+              <div className="flex items-center">
+                <Link href="/home" className="flex items-center" prefetch={true}>
+                  <Image
+                    src="/logo.png"
+                    alt="Mitram360 Logo"
+                    width={50} // adjust as needed
+                    height={50} // adjust as needed
+                    className="object-contain"
+                  />
+                </Link>
+              </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-6">
@@ -78,12 +91,12 @@ export default function Header() {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex space-x-3">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-150">
+            <Button className="bg-orange-400 hover:bg-orange-500 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-150">
               WITH Mitram360
             </Button>
             <Button
               asChild
-              className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-150"
+              className="bg-orange-400 hover:bg-orange-500 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-150"
             >
               <Link href="/become-our-partner" prefetch={true}>
                 BECOME OUR PARTNER

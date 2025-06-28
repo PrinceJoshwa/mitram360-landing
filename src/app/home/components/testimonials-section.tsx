@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
+    <section className="py-20 bg-gradient-to-br from-orange-400 to-orange-500 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Customer Success Stories */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
@@ -31,7 +31,7 @@ export default function TestimonialsSection() {
           <div className="flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=256&width=256"
+                src="/testimonial.jpg"
                 alt="Customer testimonial - Mr. Bharat"
                 width={256}
                 height={256}

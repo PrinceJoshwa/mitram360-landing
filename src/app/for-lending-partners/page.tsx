@@ -10,7 +10,7 @@
 //       <Header />
 
 //       {/* Hero Section */}
-//       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 py-20 overflow-hidden">
+//       <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 py-20 overflow-hidden">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 //           <h1 className="text-4xl md:text-6xl font-bold text-white mb-8">For Lending Partners</h1>
 //           <p className="text-xl text-white mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -135,7 +135,7 @@ export default function ForLendingPartnersPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
@@ -264,14 +264,14 @@ export default function ForLendingPartnersPage() {
           <h2 className="text-4xl font-bold text-orange-500 text-center mb-16">Our Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10">Home Loan</h3>
               </div>
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10 text-center">
                   Loan Against
@@ -282,7 +282,7 @@ export default function ForLendingPartnersPage() {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10 text-center">
                   Business
@@ -293,7 +293,7 @@ export default function ForLendingPartnersPage() {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10 text-center">
                   Personal
@@ -304,7 +304,7 @@ export default function ForLendingPartnersPage() {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10 text-center">
                   Working
@@ -315,7 +315,7 @@ export default function ForLendingPartnersPage() {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 border-0 shadow-lg">
-              <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center relative">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center relative">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <h3 className="text-2xl font-bold text-white relative z-10 text-center">Credit Card</h3>
               </div>
@@ -325,7 +325,7 @@ export default function ForLendingPartnersPage() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600">
+      <section className="py-20 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -345,7 +345,7 @@ export default function ForLendingPartnersPage() {
             <div className="flex justify-center">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=320&width=320"
+                  src="/testimonial.jpg"
                   alt="Mr. Stephen Surendran - Product Manager, Ujjivan Small Finance Bank"
                   width={320}
                   height={320}
@@ -457,7 +457,7 @@ export default function ForLendingPartnersPage() {
                         <div className="w-3 h-3 bg-green-400 rounded-full"></div>
                       </div>
                       <div className="flex-1 bg-white rounded mx-4 h-5 flex items-center px-2">
-                        <div className="text-xs text-gray-400">lender.Mitram360.ai</div>
+                        <div className="text-xs text-gray-400">mitram360.com</div>
                       </div>
                     </div>
                     {/* Dashboard content */}
@@ -495,7 +495,8 @@ export default function ForLendingPartnersPage() {
       </section>
 
       {/* Credit Assessment Memo Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600">
+      {/* <section className="py-20 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500"> */}
+      <section className="py-20 bg-gradient-to-br from-blue-100 to-blue-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="flex justify-center">
@@ -511,7 +512,7 @@ export default function ForLendingPartnersPage() {
                         <div className="w-3 h-3 bg-green-400 rounded-full"></div>
                       </div>
                       <div className="flex-1 bg-white rounded mx-4 h-5 flex items-center px-2">
-                        <div className="text-xs text-gray-400">cam.Mitram360.ai</div>
+                        <div className="text-xs text-gray-400">mitram360.com</div>
                       </div>
                     </div>
                     {/* CAM content */}
@@ -547,10 +548,10 @@ export default function ForLendingPartnersPage() {
             </div>
             <div>
               <h3 className="text-3xl font-bold text-orange-500 mb-8">Credit Assessment Memo</h3>
-              <p className="text-lg text-white mb-6 leading-relaxed">
+              <p className="text-lg text-black mb-6 leading-relaxed">
                 Exhaustive Credit Analysis delivered within one hour
               </p>
-              <p className="text-lg text-white leading-relaxed">
+              <p className="text-lg text-black leading-relaxed">
                 With our 250+ API integrations, we promise to deliver an exhaustive file analysis including ITR, GST,
                 Financials, Banking and all checks to your credit team within one hour of file login
               </p>

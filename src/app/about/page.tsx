@@ -8,7 +8,7 @@ export default function AboutPage() {
       <Header />
 
       {/* Our Vision Section */}
-      <section id="about" className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 py-20 overflow-hidden">
+      <section id="about" className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
       </section>
 
       {/* Who We Are Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 py-20 overflow-hidden">
         {/* Team photo background */}
         <div className="absolute inset-0 opacity-30">
           <div className="w-full h-full bg-gradient-to-r from-blue-900/80 to-blue-600/80"></div>

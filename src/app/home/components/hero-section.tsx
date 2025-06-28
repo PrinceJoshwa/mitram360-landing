@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react"
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 min-h-screen flex items-center overflow-hidden">
+    <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 min-h-screen flex items-center overflow-hidden">
       {/* Network Background Pattern */}
       <div className="absolute inset-0">
         {/* Network nodes */}

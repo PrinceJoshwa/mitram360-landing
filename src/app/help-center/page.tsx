@@ -11,7 +11,7 @@ export default function HelpCenterPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 py-20">
+      <section className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-8">Help Center</h1>
           <p className="text-xl text-white mb-8">Find answers to your questions and get the support you need</p>
